@@ -1,0 +1,175 @@
+body {
+  background-image: url("../../Images/GameBackground.jpeg");
+
+  
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: powderblue;
+  position: fixed; 
+  top: 500; 
+  left: 500; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+.timer1css{
+	position: fixed;
+	border: 5px solid #ffd700;
+	top: 80%;
+	left: 2%;
+	width: 8.5%;
+	padding-bottom: .1%;
+	margin: 10px;
+	background-color: #000000;
+	color: #ffd700;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-weight: bold;
+	font-size: 8em;
+	border-radius: 25px;
+}
+
+.timer2css{
+	position: fixed;
+	border: 5px solid #ffd700;
+	top: 80%;
+	left: 88%;
+	width: 8.5%;
+	padding-bottom: .1%;
+	margin: 10px;
+	background-color: #000000;
+	color: #ffd700;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-weight: bold;
+	font-size: 8em;
+	border-radius: 25px;
+}
+
+.timer_general{
+	
+}
+
+.image_holder{
+	position: fixed;
+
+	top: 8%;
+	left: 25%;
+	width: 50%;
+	height: 70%;
+	margin: 10px;
+	background-color: #000000;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-weight: bold;
+	font-size: 8em;
+	border-radius: 25px;
+}
+
+.slide{
+	object-fit: cover;
+    width: auto;
+    height: 100%;
+	border-radius: 25px;
+}
+
+.answers{
+	position: fixed;
+	border: 5px solid #FFA500;
+	top: 81%;
+	left: 30%;
+	width: 40%;
+	padding-bottom: 1%;
+	margin: 10px;
+	background-color: #000000;
+	color: #FFA500;
+	text-align: center;
+	font-family: "Monospace";
+	font-weight: bold;
+	font-size: 6em;
+	border-radius: 25px;
+}
+
+.correctAnswers{
+	position: fixed;
+	border: 3px solid #50C878;
+	top: 0%;
+	left: 30%;
+	width: 40%;
+	padding-bottom: 1%;
+	margin: 10px;
+	background-color: #000000;
+	color: #50C878;
+	text-align: center;
+	font-family: "Monospace";
+	font-weight: bold;
+	font-size: 3em;
+	border-radius: 15px;
+}
+
+
+.counter{
+	position: fixed;
+	top: 0%;
+	left: 90%;
+	width: 8.5%;
+	padding-bottom: .1%;
+	margin: 10px;
+	color: #7FFFD4;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-weight: bold;
+	font-size: 3em;
+	border-radius: 25px;
+}
+
+.cover{
+	top: -5%;
+	left: -5%;
+	position: fixed;
+	width: 110%;
+	height: 110%;
+	background-color: #000000;
+	z-index: 100;
+	color: #7FFFD4;
+	font-size: 8em;
+	text-align: center;
+}
+
+.covertext{
+	position: fixed;
+	top: 27.5%;
+	left: 40.5%;
+	width: 17%;
+	padding-bottom: .1%;
+	margin: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.debug{
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	width: 8.5%;
+	padding-bottom: .1%;
+	margin: 10px;
+	color: #7FFFD4;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-weight: bold;
+	font-size: 3em;
+	border-radius: 25px;
+}

@@ -1,0 +1,19 @@
+body {
+  background-image: url("../../Images/birthdayking.jpg");
+
+  
+  background-size: cover;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: powderblue;
+  position: fixed; 
+  top: 500; 
+  left: 500; 
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.sword{
+	background-image: url("Images/swordEdited.png");
+}
